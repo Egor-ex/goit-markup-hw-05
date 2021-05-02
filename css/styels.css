@@ -440,16 +440,16 @@ h3 {
   width: 100%;
   height: 100%;
   padding: 63px 24px;
-  top: 0;
-  left: 0;
 
+  opacity: 0;
   transform: translateY(100%);
-  transition: transform var(--time-ms) var(--time-use);
+  transition: transform var(--time-ms) var(--time-use), opacity var(--time-ms) var(--time-use);
   background-color: var(--overlay-clolor);
 }
 .card-link:hover .overlay,
 .card-link:focus .overlay {
   transform: translateY(0);
+  opacity: 1;
 }
 .card-link {
   display: block;
