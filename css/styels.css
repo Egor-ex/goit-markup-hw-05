@@ -95,7 +95,9 @@ h3 {
   font-style: inherit;
   text-decoration: none;
   color: inherit;
-  transition: transform var(--time-ms) var(--time-use), background-color var(--time-ms) var(--time-use);
+  transition: transform var(--time-ms) var(--time-use), background-color var(--time-ms) var(--time-use),
+    border-color var(--time-ms) var(--time-use), fill var(--time-ms) var(--time-use),
+    color var(--time-ms) var(--time-use);
 }
 /* Site nav */
 .site-nav {
